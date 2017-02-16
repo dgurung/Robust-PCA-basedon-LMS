@@ -4,6 +4,9 @@ Traditional PCA is sensitive to outliers. Paper [1] describes a method to comput
 The Least median of Squares (LMS) method is used to reject outliers. 
 The major region contributes to determine the principal axis of 3D point cloud. Building a major region is an iterative process. Initially, it starts from certain number of points obtained using Octree based sampling and LMS based error criterion. Major region is then gradually built based on LMS error criterion only.  (Also known as forward search technique). 
 
+Algorithm:
+----------
+Algorithm to implement the above mentioned method is detailed in our presentation slides.[Link](https://github.com/dgurung/Robust-PCA-basedon-LMS/blob/master/RPCA.v1.1.pdf)
 
 Tools and Libraries Required:
 --------------------
