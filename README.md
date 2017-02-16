@@ -23,7 +23,9 @@ VRML and off files.
 
 Output:
 -------
+The green colored points indicate the points considered to compute the PCA. The three principal axes are shown by Red (1st PA), Green (2nd PA), and Blue (3rd PA) arrows.
 ![Ouput snapshot](https://github.com/dgurung/Robust-PCA-basedon-LMS/blob/master/output.png)
+
 
 References:
 -----------
